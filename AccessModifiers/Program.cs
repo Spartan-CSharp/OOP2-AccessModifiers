@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using AccessModifiersLibrary;
 
@@ -10,7 +6,7 @@ namespace AccessModifiers
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main()
 		{
 			Person person = new Person();
 			Manager manager = new Manager();
